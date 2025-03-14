@@ -25,6 +25,7 @@
         <a href="demo01/demo03.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 03</a>
         <a href="demo01/demo04.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 04</a>
         <a href="demo01/demo05.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 05</a>
+        <a href="demo01/demo06.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 06</a>
     </div>
 </body>
 </html>

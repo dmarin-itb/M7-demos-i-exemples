@@ -28,6 +28,15 @@ $percentatgeCara3 = ($cara3 / $totalLlançaments) * 100;
 $percentatgeCara4 = ($cara4 / $totalLlançaments) * 100;
 $percentatgeCara5 = ($cara5 / $totalLlançaments) * 100;
 $percentatgeCara6 = ($cara6 / $totalLlançaments) * 100;
+
+// Preparació de les icones
+$icona1 = "<i class='fa-solid fa-dice-one text-orange-500 text-2xl'></i>";
+$icona2 = "<i class='fa-solid fa-dice-two text-orange-500 text-2xl'></i>";
+$icona3 = "<i class='fa-solid fa-dice-three text-orange-500 text-2xl'></i>";
+$icona4 = "<i class='fa-solid fa-dice-four text-orange-500 text-2xl'></i>";
+$icona5 = "<i class='fa-solid fa-dice-five text-orange-500 text-2xl'></i>";
+$icona6 = "<i class='fa-solid fa-dice-six text-orange-500 text-2xl'></i>";
+
 ?>
 
 <!DOCTYPE html>
@@ -46,13 +55,15 @@ $percentatgeCara6 = ($cara6 / $totalLlançaments) * 100;
         </h2>
 
         <?php
-        // Bucle manual per cada número del dau (sense arrays)
+        // Bucle per mostrar resultats amb les icones correctes
         for ($i = 1; $i <= 6; $i++) {
             $cara = ${"cara$i"};
             $percentatge = ($cara / $totalLlançaments) * 100;
+            $icona = ${"icona$i"}; // Obté la icona correcta
+        
             echo "
                 <p class='text-gray-700 font-semibold flex items-center'>
-                    <i class='fa-solid fa-dice-$i text-blue-500 mr-2'></i> $i: $cara cops
+                    " . $icona . "&nbsp;" . $cara . " cops
                 </p>
                 <div class='w-full bg-gray-300 rounded-lg h-6 overflow-hidden mb-4'>
                     <div class='bg-green-500 h-full text-white text-right pr-2 flex items-center justify-end' style='width: " . number_format($percentatge, 1) . "%;'>
