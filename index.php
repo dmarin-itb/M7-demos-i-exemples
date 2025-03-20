@@ -15,17 +15,18 @@
     </div>
     
     <!-- Títol -->
-    <h1 class="text-2xl font-bold text-blue-700 mb-4">Demo 01</h1>
+    <h1 class="text-2xl font-bold text-blue-700 mb-4">BLOCS</h1>
     
     <!-- Grid de botons -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-2xl">
         <!-- Botons -->
-        <a href="demo01/demo01.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 01</a>
-        <a href="demo01/demo02.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 02</a>
-        <a href="demo01/demo03.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 03</a>
-        <a href="demo01/demo04.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 04</a>
-        <a href="demo01/demo05.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 05</a>
-        <a href="demo01/demo06.php" class="bg-blue-600 text-white py-3 px-5 rounded-lg shadow-md text-center hover:bg-blue-700">Demo 06</a>
+        <a href="M7-BLOC1-RA1RA2RA3RA4/index.php" class="bg-blue-600 text-white py-4 px-6 rounded-lg shadow-md text-center hover:bg-blue-700 text-xl w-full min-h-16 flex items-center justify-center">
+        BLOC 01 - RA1RA2RA3RA4</a>
+
+        <a href="M7-BLOC2-RA6/index.php" class="bg-blue-600 text-white py-4 px-6 rounded-lg shadow-md text-center hover:bg-blue-700 text-xl w-full min-h-16 flex items-center justify-center">BLOC 02 - RA6</a>
+        <a href="M7-BLOC3-RA5/index.php" class="bg-blue-600 text-white py-4 px-6 rounded-lg shadow-md text-center hover:bg-blue-700 text-xl w-full min-h-16 flex items-center justify-center">BLOC 03 - RA5</a>
+        <a href="M7-BLOC4-RA7/index.php" class="bg-blue-600 text-white py-4 px-6 rounded-lg shadow-md text-center hover:bg-blue-700 text-xl w-full min-h-16 flex items-center justify-center">BLOC 04 - RA7</a>
+        <a href="M7-BLOC5-RA8RA9/index.php" class="bg-blue-600 text-white py-4 px-6 rounded-lg shadow-md text-center hover:bg-blue-700 text-xl w-full min-h-16 flex items-center justify-center">BLOC 05 - RA8RA9</a>
     </div>
 </body>
 </html>

@@ -10,7 +10,7 @@ $totalLlançaments = 1000;
 
 // Llançar la moneda 1000 vegades
 for ($i = 0; $i < $totalLlançaments; $i++) {
-    $resultat = rand(0, 5)+1;
+    $resultat = rand(1, 6);
     switch($resultat){
         case 1: $cara1++;
                 break;

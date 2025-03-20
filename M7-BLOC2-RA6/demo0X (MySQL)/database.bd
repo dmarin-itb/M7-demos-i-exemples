@@ -1,0 +1,22 @@
+<?php
+class Database {
+    // connexió provada!
+    private static $host = "s80.hostilica.net";
+    private static $dbname = "ehnetcqf_2425ITB_demo";
+    private static $username = "ehnetcqf_2425ITB";
+    private static $password = "asd123ASD123#";
+    private static $conn;
+
+    public static function connect() {
+        if (!isset(self::$conn)) {
+            try {
+                self::$conn = new PDO("mysql:host=" . self::$host . ";dbname=" . self::$dbname . ";charset=utf8", self::$username, self::$password);
+                self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            } catch (PDOException $e) {
+                die("Error de connexió: " . $e->getMessage());
+            }
+        }
+        return self::$conn;
+    }
+}
+?>

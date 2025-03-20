@@ -7,11 +7,8 @@ $totalLlançaments = 1000;
 // Llançar la moneda 1000 vegades
 for ($i = 0; $i < $totalLlançaments; $i++) {
     $resultat = rand(0, 1); // 0 = creu, 1 = cara
-    if ($resultat === 0) {
-        $creus++;
-    } else {
-        $cares++;
-    }
+    if ($resultat === 0) $creus++;
+    else $cares++;
 }
 
 // Calcular percentatges
